@@ -1,56 +1,68 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/F4zkDqTW)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=20998401&assignment_repo_type=AssignmentRepo)
 # Práctica 2: Introducción al desarrollo. Ponlo en práctica.
-
-Apoyate en los siguientes recursos para realizar la práctica:
 
 [Descripción de la práctica](https://revilofe.github.io/section3/u01/practica/EDES-U1.-Practica011/)
 
 
 ---
 
-# Título de la Actividad
+# Elementos de desarrollo
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** 1.11: Elementos de desarrollo
+- **Módulo:** Programación
+- **Unidad de Trabajo:** Unidad 1: Introduccion al desarrollo de Software. 
+- **Fecha de Creación:** 07/10/2025
+- **Fecha de Entrega:** 16/10/2025
 - **Alumno(s):** 
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Óscar García Jaén
+  - **Correo electrónico:** ogarjae565@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** OGJ
 
 ## Descripción de la Actividad
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
+Evaluar la relación entre software y hardware, clasificar lenguajes de programación y 
+comprender los diferentes procesos de ejecución (compilación, interpretación y máquinas virtuales), 
+utilizando ejemplos de lenguajes interpretados, compilados y que generan código intermedio para su 
+ejecución en una máquina virtual.
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
+   ### Lenguaje de programación y versión
+   - Para el lenguaje C era necesario tener instalado tanto el lenguaje para poder desarrollar el programa como un compilador para poder ejecutar el programa.
+   - Para el lenguaje Java era necesario tener instalado el JDK.
+   - Para el lenguaje Python era necesario tener instalado el lenguaje.
+
+   ### Entorno de desarrollo o dependencias necesarias
+   - Para C he usado VS Code descargando los respectivos plugins para su correcto funcionamiento.
+   - Para Java he descargado el plugin "Extension Pack for Java" que incluye todo lo necesario para un correcto desarrollo.
+   - Para Python descargué el plugin del lenguaje y el Debugger para desarrollar el código y poder comprobar su funcionamiento.
+
 
 2. **Pasos para Compilar el Código:**
-   ```bash
-   [Comando para compilar el código]
-   ```
+
+
+   - Para C tras desarrollar el código es necesario compilar el programa con el siguiente comando:
+
+      ```bash
+      [gcc nombreDelPrograma.c -o nombreDelPrograma]
+      ```
+   
 
 3. **Pasos para Ejecutar el Código:**
-   ```bash
-   [Comando para ejecutar la aplicación]
-   ```
 
-4. **Ejecución de Pruebas:**
-   ```bash
-   [Comandos para ejecutar pruebas, si las hubiera]
-   ```
+
+   - Para ejecutar el código desarrollado en C
+      
+      ```bash
+      [./nombreDelPrograma] (Linux)
+      ```
+
 
 ## Desarrollo de la Actividad
 ### Descripción del Desarrollo
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
+La actividad ha sido realizada en Python, C y Java, el código ha sido desarrollado en los tres lenguajes previamente dichos, pero con las diferentes sintaxis requeridas por cada uno.
 
 ### Código Fuente
-[Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
+- **Java** : 
 
 ### Ejemplos de Ejecución
 - **Entrada 1:** Descripción de la entrada y valor de prueba.
