@@ -76,7 +76,7 @@ La actividad ha sido realizada en Python, C y Java, el código ha sido desarroll
 
 ### Código Fuente
 - **Java** : [Programa en Java](src/obtenerDatos.java)
-- **C**: [Progrma en C](src/obtenerDatos.c)
+- **C**: [Programa en C](src/obtenerDatos.c)
 - **Pyhon**: [Programa en Python](src/obtenerDatos.py)
 
 ## 5.1. Criterio de Evaluación 1.a: Relación entre Software y Hardware¶
@@ -113,6 +113,7 @@ El procesador, siguiendo las instrucciones que la JVM va traduciendo, utiliza la
 
 Finalmente, el método System.out.println envía el mensaje al sistema operativo, que gestiona la salida para mostrar en la pantalla el texto: "Hola (nombreIntroducido), tienes (resultadoDelCalculo) años".
 
+---
 
 ## 5.2. Criterio de Evaluación 1.c: Diferenciación entre Código Fuente, Código Objeto y Ejecutable
 
@@ -142,6 +143,8 @@ Este bytecode no es un archivo ejecutable para el procesador directamente, sino 
 
 Por tanto, el archivo intermedio generado es el .class con el bytecode, y no se crea un ejecutable como en C. Este bytecode es el que se usa para correr el programa en cualquier sistema que tenga instalada la JVM.
 
+---
+
 ## 5.3. Criterio de Evaluación 1.d: Generación de Código Intermedio para Máquinas Virtuales
 
 ### 1. Describe el proceso de generación de código intermedio (bytecode) en el lenguaje que utilizaste que emplea una máquina virtual (por ejemplo, Java o C#). 
@@ -157,6 +160,8 @@ Este proceso permite que el mismo bytecode pueda ser ejecutado en cualquier disp
 La JVM interpreta y ejecuta este bytecode en tiempo real, traduciendo el código en instrucciones específicas para el procesador. Este proceso incluye una compilación Just-In-Time (JIT), que convierte partes del bytecode en código máquina mientras el programa esta en proceso de ejecución, mejorando la eficiencia.
 
 En los lenguajes interpretados, como Python, el código fuente se ejecuta directamente usando un intérprete. El intérprete lee el programa línea por línea y traduce cada instrucción a lenguaje máquina en tiempo real, para que el procesador pueda ejecutar cada acción al momento.
+
+---
 
 ## 5.4. Criterio de Evaluación 1.e: Clasificación de Lenguajes de Programación
 
@@ -181,6 +186,8 @@ C se considera un lenguaje compilado porque su código fuente se traduce a códi
 **Java**
 
 Java usa una máquina virtual, porque el código fuente se compila a bytecode y se ejecuta dentro de la JVM. Esto lo hace independiente del sistema operativo. Es un lenguaje de alto nivel porque oculta los detalles del hardware y facilita la programación mediante clases y objetos. Su paradigma principal es la orientación a objetos, aunque también admite estilos imperativos.
+
+---
 
 ### 5.5. Criterio de Evaluación 1.f: Evaluación de Herramientas Utilizadas en el Desarrollo
 
@@ -235,7 +242,24 @@ Java usa una máquina virtual, porque el código fuente se compila a bytecode y 
 
 <img src="assets/Ejecucion_C.png" alt="Texto alternativo" width="350" height="150">
 
+---
+
+## 7. Conclusión Final
+### Al final del trabajo, se deberá reflexionar y entregar una conclusión, de no más de 10 líneas, que compare las diferencias entre los tres lenguajes (interpretado, compilado y en máquina virtual), destacando:
+**1. Las diferencias de rendimiento.**
+**2. La facilidad o complejidad de cada proceso de ejecución.**
+**3. Las ventajas y desventajas de cada tipo de lenguaje (interpretado vs compilado vs intermedio).**
+
+En conclusión, los lenguajes compilados como C ofrecen mejor rendimiento porque el código se traduce directamente a instrucciones que el procesador puede ejecutar, aunque requieren un proceso de compilación previo. 
+
+Los lenguajes interpretados como Python permiten una ejecución más flexible y rápida para desarrollar, ya que el código se ejecuta línea por línea en tiempo real, aunque con menor velocidad. 
+
+Los lenguajes que usan máquina virtual, como Java, combinan portabilidad y buen rendimiento al compilar a bytecode que la máquina virtual interpreta o compila justo a tiempo. 
+
+Cada tipo tiene ventajas claras: velocidad y eficiencia para los compilados, facilidad y rapidez para los interpretados, y equilibrio y portabilidad para los que usan máquina virtual.
+
 ## Referencias y Fuentes
 
 - https://devdocs.io/c/
+- [Tutorial básico de Java.pdf](assets/Tutorial%20b%C3%A1sico%20de%20Java.pdf)
 
