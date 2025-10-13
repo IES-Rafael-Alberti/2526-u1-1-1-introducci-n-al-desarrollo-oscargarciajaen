@@ -22,7 +22,7 @@ int main(void) {
 
     edad = 2025 - anoNacimiento; // Calculo la edad
 
-    printf("Hola %s, tienes %d años.\n", nombre, edad); // Muestro por pantalla el saludo y la edad
+    printf("Hola %s, tienes %d años.", nombre, edad); // Muestro por pantalla el saludo y la edad
 
     return 0;
 }
