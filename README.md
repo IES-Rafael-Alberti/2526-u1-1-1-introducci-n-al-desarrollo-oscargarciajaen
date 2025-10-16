@@ -244,7 +244,7 @@ Java usa una máquina virtual, porque el código fuente se compila a bytecode y 
 
 ---
 
-## 7. Conclusión Final
+## Conclusión Final
 ### Al final del trabajo, se deberá reflexionar y entregar una conclusión, de no más de 10 líneas, que compare las diferencias entre los tres lenguajes (interpretado, compilado y en máquina virtual), destacando:
 **1. Las diferencias de rendimiento.**
 **2. La facilidad o complejidad de cada proceso de ejecución.**
